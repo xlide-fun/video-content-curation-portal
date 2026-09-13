@@ -1,0 +1,55 @@
+{
+  "siteName": "VideoCurationPortal",
+  "tagline": "Curated immersive video discovery",
+  "description": "Highly curated video collections from top sources. Stream instantly. Discover more.",
+  "logo": "/logo.svg",
+  "brandColors": {
+    "primary": "#FF3366",
+    "dark": "#1A1A2E",
+    "accent": "#E94560"
+  },
+  "upsell": {
+    "name": "YourPlatformName",
+    "url": "https://yourlifestyleplatform.com",
+    "secondaryUrl": "https://yoursecondaryplatform.com",
+    "stickyBannerText": "Ready for real connections? Join now →",
+    "stickyBannerCta": "Get Started",
+    "interstitialHeadline": "Looking for something more real?",
+    "interstitialSub": "Meet people offline. Limited time offer.",
+    "interstitialCta": "Claim Access",
+    "inContentCtaTitle": "Upgrade your experience",
+    "inContentCtaBody": "Join the lifestyle platform trusted by thousands.",
+    "exitIntentTitle": "Wait — don't leave yet",
+    "exitIntentBody": "Unlock exclusive access before you go.",
+    "exitIntentCta": "Stay & Join"
+  },
+  "ageGate": {
+    "enabled": true,
+    "title": "Are you 18 or older?",
+    "confirm": "Yes, I am 18+",
+    "deny": "Leave"
+  },
+  "disclaimer": "We do not host any videos. All content is embedded from third-party APIs. Contact for DMCA takedown.",
+  "dmcaEmail": "dmca@yourdomain.com",
+  "playlists": [
+    "best-of-2026",
+    "trending-now",
+    "staff-picks",
+    "top-rated",
+    "today",
+    "greatest-hits",
+    "fresh-uploads",
+    "editors-choice",
+    "viral",
+    "hidden-gems"
+  ],
+  "keywords": [
+    "best {tag} videos 2026",
+    "{tag} compilation",
+    "latest {tag}",
+    "top {tag}",
+    "today {tag}",
+    "{tag} immersive",
+    "trending {tag} clips"
+  ]
+}
