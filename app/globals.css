@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-pink: #FF3366;
+  --brand-dark: #1A1A2E;
+  --brand-accent: #E94560;
+}
+
+body {
+  @apply bg-[#0f0f1a] text-white antialiased;
+}
+
+.video-card {
+  @apply relative overflow-hidden rounded-xl bg-black/40 transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg hover:shadow-brand-pink/20;
+}
+
+.immersive-player {
+  @apply w-full aspect-video bg-black rounded-xl overflow-hidden;
+}
+
+.sticky-banner {
+  @apply fixed bottom-0 left-0 right-0 z-50 bg-gradient-to-r from-brand-dark to-brand-accent text-white px-4 py-3 flex items-center justify-between shadow-2xl;
+}
